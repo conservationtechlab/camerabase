@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddKeywords" xml:space="preserve">
+    <value>Add keywords:</value>
+  </data>
+  <data name="adjusted" xml:space="preserve">
+    <value>adjusted</value>
+  </data>
+  <data name="AdjustTimeBy" xml:space="preserve">
+    <value>Adjust time by:</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="AllCameras" xml:space="preserve">
+    <value>All Cameras</value>
+  </data>
+  <data name="AllImages" xml:space="preserve">
+    <value>All images in source folder</value>
+  </data>
+  <data name="BuildingImageList" xml:space="preserve">
+    <value>Building image list...</value>
+  </data>
+  <data name="CalculateDateDiff" xml:space="preserve">
+    <value>Calculate Date/Time difference</value>
+  </data>
+  <data name="CameraMakeModel" xml:space="preserve">
+    <value>Camera (Make/Model):</value>
+  </data>
+  <data name="CameraModelNotSpecified" xml:space="preserve">
+    <value>Camera model not specified</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Cancelled.</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Remove all EXIF data (JPG Only)</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Completed.</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Copyright:</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Image credit:</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days:</value>
+  </data>
+  <data name="Difference" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="DifferenceString" xml:space="preserve">
+    <value>{0} days, {1} hours, {2} minutes, {3} seconds.</value>
+    <comment>eg. 5 days, 15 hours, 2 minutes, 0 seconds.</comment>
+  </data>
+  <data name="DownloadNewVersion" xml:space="preserve">
+    <value>Download New Version</value>
+  </data>
+  <data name="EnterLicence" xml:space="preserve">
+    <value>Enter Licence</value>
+  </data>
+  <data name="errorContactSupport" xml:space="preserve">
+    <value>Please contact support@relliksoftware.com</value>
+  </data>
+  <data name="errorFileMask" xml:space="preserve">
+    <value>Filemask cannot be blank</value>
+  </data>
+  <data name="errorInvalidFields" xml:space="preserve">
+    <value>Invalid fields.  Please check all fields before trying again.</value>
+  </data>
+  <data name="errorInvalidSource" xml:space="preserve">
+    <value>Invalid source image/folder</value>
+  </data>
+  <data name="errorInvalidTargetFolder" xml:space="preserve">
+    <value>Invalid target folder</value>
+  </data>
+  <data name="errorMissingFile" xml:space="preserve">
+    <value>Unable to find {0}.  Please reinstall EXIF Date Changer and try again.</value>
+    <comment>{0} is the filename. </comment>
+  </data>
+  <data name="errorParseDateTime" xml:space="preserve">
+    <value>Unable to get date/time from image ({0}).</value>
+    <comment>{0} is the date string returned from the image</comment>
+  </data>
+  <data name="ErrorProcessingImages" xml:space="preserve">
+    <value>Unable to process images.</value>
+  </data>
+  <data name="errorSourceFolder" xml:space="preserve">
+    <value>Source folder does not exist</value>
+  </data>
+  <data name="errorSourceImage" xml:space="preserve">
+    <value>Source image does not exist</value>
+  </data>
+  <data name="errorTrialMessage" xml:space="preserve">
+    <value>Sorry this option is only available within the pro version</value>
+  </data>
+  <data name="ErrorUnableWriteLocation" xml:space="preserve">
+    <value>Unable to write to target location.</value>
+  </data>
+  <data name="ErrorUpdateFileCreationTime" xml:space="preserve">
+    <value>Error updating file creation time {0} (date taken not valid).</value>
+    <comment>{0} is the filename.</comment>
+  </data>
+  <data name="ErrorWatermarkImageType" xml:space="preserve">
+    <value>Unable to watermark image due to unsupported image type - {0}</value>
+  </data>
+  <data name="ErrorWatermarkingImage" xml:space="preserve">
+    <value>An error occurred while watermarking the image - {0}</value>
+  </data>
+  <data name="errorWebpage" xml:space="preserve">
+    <value>Unable to start web browser.  Please manually visit {0}</value>
+    <comment>{0} is the webpage</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="FinalDateTime" xml:space="preserve">
+    <value>Final date/time:</value>
+  </data>
+  <data name="GetCameras" xml:space="preserve">
+    <value>Get Cameras</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Hours:</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>E&amp;xit</value>
+    <comment>&amp; is the keyboard shortcut for the menu</comment>
+  </data>
+  <data name="MenuFile" xml:space="preserve">
+    <value>&amp;File</value>
+    <comment>&amp; is the keyboard shortcut for the menu</comment>
+  </data>
+  <data name="MenuHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+    <comment>&amp; is the keyboard shortcut for the menu</comment>
+  </data>
+  <data name="MenuHelpContents" xml:space="preserve">
+    <value>&amp;Help Contents</value>
+  </data>
+  <data name="MenuRegister" xml:space="preserve">
+    <value>&amp;Register</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minutes:</value>
+  </data>
+  <data name="MissingProgramFile" xml:space="preserve">
+    <value>Missing program file</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>There is a newer version available.  Download now?</value>
+  </data>
+  <data name="NoDateAdjustment" xml:space="preserve">
+    <value>No date adjustment</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OnlyIncludeCriteria" xml:space="preserve">
+    <value>Only include photos matching this criteria:</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Open Folder</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="OriginalDateTime" xml:space="preserve">
+    <value>Original date/time:</value>
+  </data>
+  <data name="OverwriteFiles" xml:space="preserve">
+    <value>Are you sure you want to place the updated images in the same folder.  A Copy of the image with '_original' in its filename will be kept unless the 'Overwrite original' option is checked.</value>
+  </data>
+  <data name="OverwriteOrigFile" xml:space="preserve">
+    <value>Remove original file</value>
+  </data>
+  <data name="Photos" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="PleaseRestart" xml:space="preserve">
+    <value>Please restart EXIF Date Changer to run the Pro version</value>
+  </data>
+  <data name="PreserveOrigModDate" xml:space="preserve">
+    <value>Preserve original modification date</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Process:</value>
+  </data>
+  <data name="ProcessAfterDate" xml:space="preserve">
+    <value>Only process images taken after:</value>
+  </data>
+  <data name="ProcessingPhotos" xml:space="preserve">
+    <value>Processing photos</value>
+  </data>
+  <data name="ProcessingPhotosIn" xml:space="preserve">
+    <value>Processing photos in {0}...</value>
+    <comment>Processing photos in My Pictures....</comment>
+  </data>
+  <data name="ProcessPhotos" xml:space="preserve">
+    <value>Process Photos</value>
+  </data>
+  <data name="ProgramUpdate" xml:space="preserve">
+    <value>Program Update</value>
+  </data>
+  <data name="ProTitle" xml:space="preserve">
+    <value>EXIF Date Changer Pro</value>
+  </data>
+  <data name="ProVersionFileType" xml:space="preserve">
+    <value>Skipped - Raw images only supported within Pro version - {0}</value>
+  </data>
+  <data name="RecurseFolders" xml:space="preserve">
+    <value>Recurse folders</value>
+  </data>
+  <data name="RenameFilesTo" xml:space="preserve">
+    <value>Rename files to:</value>
+  </data>
+  <data name="RenamingImages" xml:space="preserve">
+    <value>Renaming Images...</value>
+  </data>
+  <data name="SaveFolders" xml:space="preserve">
+    <value>Save &amp;Folders</value>
+    <comment>&amp; is the keyboard shortcut for the menu</comment>
+  </data>
+  <data name="SaveOptions" xml:space="preserve">
+    <value>&amp;Save Options</value>
+    <comment>&amp; is the keyboard shortcut for the menu</comment>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>Seconds:</value>
+  </data>
+  <data name="SetDateTimeFromImage" xml:space="preserve">
+    <value>Set date / time from image</value>
+  </data>
+  <data name="SetDateTimeTo" xml:space="preserve">
+    <value>Set date/time to:</value>
+  </data>
+  <data name="SetFileDate" xml:space="preserve">
+    <value>Set file date/time to date taken</value>
+  </data>
+  <data name="SingleImage" xml:space="preserve">
+    <value>Single image</value>
+  </data>
+  <data name="Skipped" xml:space="preserve">
+    <value>Skipped due to filters - {0}</value>
+  </data>
+  <data name="SourceFolder" xml:space="preserve">
+    <value>Source Folder:</value>
+  </data>
+  <data name="SourceImage" xml:space="preserve">
+    <value>Source Image:</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>Destination Folder:</value>
+  </data>
+  <data name="TimeDifference" xml:space="preserve">
+    <value>Time Adjustment</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>EXIF Date Changer</value>
+  </data>
+  <data name="UpgradeFeatures" xml:space="preserve">
+    <value>Upgrade and get the following features:
+
+  * Ability to filter by camera
+  * Advanced options like keywords, credits, copyright etc
+  * Ability to process other image formats such as RAW, CR2, TIF, DNG etc
+  * Commercial Use
+
+For more information and a version comparison please visit our website:</value>
+    <comment>Multi line</comment>
+  </data>
+  <data name="UpgradeToPro" xml:space="preserve">
+    <value>Upgrade To Pro</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="FileCreatedDate" xml:space="preserve">
+    <value>File Created Date</value>
+  </data>
+  <data name="FileModifiedDate" xml:space="preserve">
+    <value>File Modified Date</value>
+  </data>
+  <data name="TextInFileName" xml:space="preserve">
+    <value>Date in Filename</value>
+  </data>
+  <data name="ErrorWritingImageAttributes" xml:space="preserve">
+    <value>An error occurred while writing the image attribtutes for {0}</value>
+  </data>
+</root>

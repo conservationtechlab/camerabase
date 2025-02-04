@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EvaluationExpiredMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Il tuo periodo di valutazione è terminato</value>
+  </data>
+  <data name="EvaluationInvalidMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>La licenza di valutazione è scaduta</value>
+  </data>
+  <data name="InvalidAuthenticationKeyTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Chiave licenza non valida</value>
+  </data>
+  <data name="InvalidKeyTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Chiave licenza non valida</value>
+  </data>
+  <data name="WaitTxt" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Attendere...</value>
+  </data>
+  <data name="InvalidAuthenticationKeyMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>La chiave ({0}) non è una chiave di licenza valida per questo prodotto.</value>
+  </data>
+  <data name="InvalidKeyMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>La chiave ({0}) non è una chiave di licenza valida per questo prodotto.</value>
+  </data>
+  <data name="InvalidLicenseTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>{0} - Licenza non valida</value>
+  </data>
+  <data name="AuthenticatingTxt" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Autenticazione</value>
+  </data>
+  <data name="AuthenticationErrorMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Un errore imprevisto si è verificato sull'autenticazione della tua chiave di licenza.  Vuoi autenticare la tua licenza inviandocela per email o per posta?
+
+Cliccare "No" e poi "Installazione" per provare ancora.
+
+Cliccare "Sì" per salvare la tua licenza su un file.   Mandaci questo file, lo autenticheremo e te lo reinvieremo, così che tu potrai caricarlo utilizzando il pulsante "Carica licenza".
+
+Error: {0}</value>
+  </data>
+  <data name="AuthenticationErrorTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Errore di autenticazione</value>
+  </data>
+  <data name="AuthenticationsExceededMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Il numero di installazioni consentito per questa chiave di licenza è stato superato.</value>
+  </data>
+  <data name="ConfirmUninstallMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Sei sicuro di voler disinstallare la licenza corrente?</value>
+  </data>
+  <data name="ConfirmUninstallTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Conferma disinstallazione licenza</value>
+  </data>
+  <data name="ConnectionErrorMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Impossibile collegarsi al Server autenticazione licenze attraverso internet per autenticare la tua licenza su questo computer. Vuoi autenticare la tua licenza inviandocela per email o per posta?
+
+Cliccare "No" per correggere le tue impostazioni internet o firewall e poi cliccare il pulsante "Installazione" per provare ancora.
+
+Cliccare "Sì" per salvare la tua licenza su un file.   Mandaci questo file, lo autenticheremo e te lo reinvieremo, così che tu potrai caricarlo utilizzando il pulsante "Carica licenza".</value>
+  </data>
+  <data name="InvalidComputerMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>La licenza non è valida per questo computer.  Questo potrebbe essere dovuto al fatto che tu hai cambiato il nome del computer dopo aver installato la licenza.
+
+Computer con licenza: {0}
+Questo computer: {1}
+
+You may need to install a new license using the original License Key provided to you when you purchased the product.  </value>
+  </data>
+  <data name="InvalidILSFile" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>File di impostazioni licenza non valido</value>
+  </data>
+  <data name="InvalidProductMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>La licenza non è una licenza valida per questo prodotto ({0}).  E' una licenza per un altro prodotto ({1}).</value>
+  </data>
+  <data name="InvalidSignatureMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Il contenuto del file di licenza è stato modificato e la licenza non è più valida.  Puoi avere bisogno di reinstallare la licenza utilizzando la chiave di licenza originale fornita a te all'acquisto del prodotto.</value>
+  </data>
+  <data name="LicenseFile" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Licenza.lic</value>
+  </data>
+  <data name="LicenseFileFilter" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Files licenza|*.lic</value>
+  </data>
+  <data name="LicenseInstalledTxt" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Licenza installata</value>
+  </data>
+  <data name="LoadLicenseTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Carica licenza da file</value>
+  </data>
+  <data name="NoLicenseInstalledTxt" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Nessuna licenza installata</value>
+  </data>
+  <data name="ReadErrorMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Un errore ({0}) si è verificato sulla lettura della licenza dal file ({1}).  
+
+Assicurati di avere privilegi sufficienti per leggere il file di licenza.</value>
+  </data>
+  <data name="ReadErrorTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Errore su lettura licenza</value>
+  </data>
+  <data name="ReadXmlErrorMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Un errore imprevisto ({0}) si è verificato sulla lettura della licenza. </value>
+  </data>
+  <data name="SaveLicenseTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Salva licenza su file</value>
+  </data>
+  <data name="UnauthenticatedLicenseMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>La licenza non è stata autenticata.</value>
+  </data>
+  <data name="UninstallErrorMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Un errore ({0}) si è verificato sulla cancellazione del file di licenza ({1}).  
+
+Assicurati di avere privilegi sufficienti per cancellare il file di licenza.</value>
+  </data>
+  <data name="UninstallErrorTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Errore su disinstallazione licenza</value>
+  </data>
+  <data name="UnknownProductTxt" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Prodotto sconosciuto</value>
+  </data>
+  <data name="WriteErrorMsg" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Un errore ({0}) si è verificato scrivendo la licenza sul file ({1}).  
+
+Assicurati di avere privilegi sufficienti per scrivere sul file di licenza.</value>
+  </data>
+  <data name="WriteErrorTitle" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Errore su scrittura licenza</value>
+  </data>
+</root>

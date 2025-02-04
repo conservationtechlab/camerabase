@@ -1,0 +1,1 @@
+regsvr32  %Systemroot%\SysWOW64\comdlg32.ocx

@@ -1,0 +1,16 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Jet\4.0\Engines\Jet 4.0]
+"MaxLocksPerFile"=dword:00030d40
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Jet\4.0\Engines\Jet 4.0]
+"MaxLocksPerFile"=dword:00030d40
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\12.0\Access Connectivity Engine\Engines\ACE]
+"MaxLocksPerFile"=dword:00030d40
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\12.0\Access Connectivity Engine\Engines\ACE]
+"MaxLocksPerFile"=dword:00030d40
+
+
+

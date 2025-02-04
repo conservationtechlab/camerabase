@@ -1,0 +1,1 @@
+exiftool "-DateTimeOriginal>DateTimeOriginal" -r -overwrite_original -ext .JPG *

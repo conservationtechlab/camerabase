@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Graphics Filters\Import\JPEG\Options]
+"ShowProgressDialog"="No"
+[HKEY_CURRENT_USER\Software\Microsoft\Shared Tools\Graphics Filters\Import\JPEG\Options]
+"ShowProgressDialog"="No"
